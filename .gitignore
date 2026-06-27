@@ -1,0 +1,58 @@
+# ============================================================================
+# Single .gitignore for the whole monorepo (covers both project subdirectories).
+# Patterns without a leading slash match at any depth, so they apply inside
+# hackerrank-orchestrate-may/ and hackerrank-orchestrate-june/ alike.
+# ============================================================================
+
+# --- Secrets (never commit; keep the .example templates) ---
+.env
+*.env
+!.env.example
+.env.local
+*.pem
+*.key
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Test / type / lint caches ---
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.cache/
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# --- Submission bundles ---
+*.zip
+
+# --- Build / chat-transcript log (kept local, not published) ---
+log.txt
+
+# --- Generated run artifacts (regenerated each run; match anywhere) ---
+coverage_gaps.log
+failed_tickets.log
+_determinism_*.csv
+*.sqlite
+*.db
+
+# --- June project: generated outputs ---
+# (May's support_tickets/output.csv is a kept deliverable, so it is NOT ignored.)
+hackerrank-orchestrate-june/output.csv
+hackerrank-orchestrate-june/code/artifacts/

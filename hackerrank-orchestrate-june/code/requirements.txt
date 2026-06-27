@@ -1,0 +1,7 @@
+# Pinned before submission with `pip freeze`. Versions below are the floors the
+# code was developed and tested against (Python 3.11+).
+anthropic>=0.40
+pydantic>=2.6
+Pillow>=10.0
+python-dotenv>=1.0
+pytest>=8.0

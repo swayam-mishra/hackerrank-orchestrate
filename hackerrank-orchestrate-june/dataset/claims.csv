@@ -1,0 +1,3 @@
+"user_id","image_paths","user_claim","claim_object"
+"demo_user_04","images/test/case_001/img_1.jpg","Customer: Hi, I noticed a scratch on my car's front bumper after parking at the mall. | Support: Can you point to where exactly? | Customer: Lower left of the front bumper, a long scratch. | Support: Just a surface scratch, or is the bumper cracked? | Customer: Just a scratch. Photo attached.","car"
+"demo_user_05","images/test/case_002/img_1.jpg;images/test/case_002/img_2.jpg","Customer: My laptop arrived with a key missing from the keyboard. | Support: Which key, and is it just the keycap or the whole switch? | Customer: The right shift key is gone. | Support: Any other damage to the device? | Customer: No, only that key. I uploaded two photos.","laptop"

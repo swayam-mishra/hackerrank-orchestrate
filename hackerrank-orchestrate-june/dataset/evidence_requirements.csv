@@ -1,0 +1,7 @@
+"requirement_id","claim_object","applies_to","minimum_image_evidence"
+"REQ_GENERAL_PART_VISIBLE","all","general claim review","At least one image must show the claimed object and the relevant part clearly enough to inspect the claimed condition."
+"REQ_GENERAL_RELEVANT_IMAGE","all","multi-image rows","Each image is judged on its own; at least one relevant, in-focus image must show the claimed object or part well enough to evaluate the claim."
+"REQ_CAR_PANEL","car","dent or scratch","The claimed car panel, bumper, or door must be visible at an angle where surface marks or deformation can be assessed."
+"REQ_LAPTOP_SURFACE","laptop","screen, keyboard, or body damage","The claimed laptop screen, keyboard, hinge, or body area must be visible clearly enough to inspect cracks, missing keys, or surface damage."
+"REQ_PACKAGE_EXTERIOR_AND_CONTENTS","package","packaging or contents damage","The relevant package surface must be visible; for missing- or damaged-contents claims the opened package and contents area must also be shown."
+"REQ_REVIEWABILITY","all","reviewability","Submitted images must be usable, relevant to the claim, and grounded in the claimed object to be treated as evidence."

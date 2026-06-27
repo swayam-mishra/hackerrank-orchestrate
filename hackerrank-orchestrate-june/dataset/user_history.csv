@@ -1,0 +1,6 @@
+"user_id","past_claim_count","accept_claim","manual_review_claim","rejected_claim","last_90_days_claim_count","history_flags","history_summary"
+"demo_user_01","2","2","0","0","1","none","Low-risk user with prior accepted car damage claims"
+"demo_user_02","1","1","0","0","0","none","New user with one prior accepted claim"
+"demo_user_03","4","2","1","1","2","review_prone","User with a mixed history and a recent burst of claims"
+"demo_user_04","0","0","0","0","0","none","First-time claimant, no prior history"
+"demo_user_05","6","3","1","2","3","high_rejection_rate;recent_burst","Higher-risk user with several rejected claims and recent activity"
